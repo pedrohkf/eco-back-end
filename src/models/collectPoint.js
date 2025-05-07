@@ -3,59 +3,55 @@ const mongoose = require('mongoose')
 const collectPointSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        required: false
     },
     longitude: {
-        type: Number,
-        required: true
+        type: String,
+        required: false
     },
     latitude: {
-        type: Number,
-        required: true
+        type: String,
+        required: false
     },
     country: {
         type: String,
-        required: true
+        required: false
     },
     state: {
         type: String,
-        required: true
+        required: false
     },
     city: {
         type: String,
-        required: true
+        required: false
     },
     street: {
         type: String,
-        required: true
+        required: false
     },
     houseNumber: {
         type: String,
-        required: true
+        required: false
     },
     cep: {
         type: String,
-        required: true
+        required: false
     },
     phoneNumber: {
         type: String,
-        required: true
+        required: false
     },
     email: {
         type: String,
-        required: true
+        required: false
     },
     openingHours: {
         type: String,
-        required: true
+        required: false
     },
     imgs: {
-        type: [String],
-        required: true
-    },
-    evaluation: {
         type: String,
-        required: true
+        required: false
     },
     createdAt: {
         type: Date,
